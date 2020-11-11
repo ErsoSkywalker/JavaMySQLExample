@@ -21,8 +21,8 @@ public class cDatos {
     public cDatos() {
         //poner los datos apropiados
         this.usrBD = "root";
-        this.passBD = "n0m3l0";
-        this.urlBD = "jdbc:mysql://127.0.0.1:3306/dbUsuarios";
+        this.passBD = "n0m3l0";//Recuerda cambiar la contraseña :D
+        this.urlBD = "jdbc:mysql://127.0.0.1:3306/dbUsuarios";//Y también, lo que va después del puerto, ahí va el nombre de tu BD
         this.driverClassName = "com.mysql.jdbc.Driver";
     }
     
